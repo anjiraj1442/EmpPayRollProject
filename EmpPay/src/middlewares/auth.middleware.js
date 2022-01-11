@@ -1,4 +1,4 @@
-import HttpStatus, { REQUEST_HEADER_FIELDS_TOO_LARGE } from 'http-status-codes';
+import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 
 /**
@@ -11,7 +11,7 @@ import jwt from 'jsonwebtoken';
  */
 export const userAuth = async (req, res, next) => {
   try {
-    let bearerToken = req.header('Authorization');
+    let bearerToken = req.header('token');
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,

@@ -1,3 +1,4 @@
+import { string } from "@hapi/joi";
 import { Schema, model } from "mongoose";
 const userSchema = new Schema({
      firstName:{
@@ -13,11 +14,20 @@ const userSchema = new Schema({
           type:String
      },
      salary:{
-          type:String
+          type:Number
      },
      company:{
           type:String
      },
+     startdate:{
+          type:String
+     },
+     notes:{
+          type:String
+     }
+    
+
+
 },
     
      {
@@ -25,4 +35,4 @@ const userSchema = new Schema({
      
 
 })
- export default model('NewEmpDetais',userSchema)
+ export default model('NewEmpDetails',userSchema)
