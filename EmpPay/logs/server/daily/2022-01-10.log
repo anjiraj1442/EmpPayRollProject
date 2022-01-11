@@ -1,0 +1,199 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T07:49:41.375Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:49:50.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T07:57:10.084Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:57:18.674Z"}
+info: Server started at http://localhost:5577/api/v1/ {"timestamp":"2022-01-10T08:00:45.931Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:00:54.738Z"}
+info: Server started at http://localhost:5577/api/v1/ {"timestamp":"2022-01-10T08:02:55.914Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:03:04.247Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-10T08:04:42.256Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-10T08:04:59.667Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:05:07.914Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:06:43.799Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:06:52.301Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:07:59.723Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:08:08.215Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:13:04.422Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:13:13.574Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:18:40.705Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:18:49.145Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:19:46.397Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:31:19.147Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:31:28.634Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:33:40.778Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:33:49.461Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:34:26.972Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:34:35.062Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:43:59.060Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:44:07.531Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:45:41.593Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:45:49.972Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:50:14.048Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:50:22.824Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T08:54:14.733Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:54:23.295Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:16:45.969Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:16:54.716Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:27:42.179Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:27:50.523Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:31:12.491Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:31:21.030Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:36:31.522Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:36:40.093Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:37:10.026Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:37:18.193Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:38:22.803Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:38:32.786Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:38:40.416Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:38:47.410Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:38:55.424Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:40:30.719Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:40:39.077Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:40:49.753Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:41:19.835Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:41:34.368Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:41:42.273Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:43:57.365Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:44:13.398Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:44:18.319Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:44:21.316Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:44:41.089Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:45:02.475Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:45:10.405Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:45:38.886Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:46:03.536Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:46:09.071Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:46:14.320Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:46:22.234Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T09:46:38.546Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:46:46.763Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T10:10:02.976Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:10:11.385Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T10:34:35.050Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:34:43.899Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T10:38:44.880Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T10:38:54.052Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:39:02.796Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T10:54:33.846Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:54:42.476Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:00:17.894Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:00:26.199Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:10:27.760Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:10:35.964Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:26:39.289Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:26:47.832Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:26:54.225Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:27:02.626Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:40:45.909Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:40:59.011Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:41:07.272Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:44:15.062Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:44:23.387Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:46:29.509Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:46:42.549Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:46:50.455Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:47:22.573Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:47:29.908Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:47:50.143Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:47:58.602Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:49:59.692Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:50:08.017Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:50:26.130Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:50:52.316Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:51:00.337Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T11:56:47.969Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:56:56.339Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:01:48.689Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:01:57.583Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:03:09.742Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:03:18.206Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (C:\EmpPayRoll\EmpPay\src\services\/user.service.js:28:42)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:03:20.578Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:04:09.495Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:04:17.875Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (C:\EmpPayRoll\EmpPay\src\services\/user.service.js:28:42)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:04:22.465Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:18:07.006Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:18:15.665Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:18:50.682Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:18:58.798Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (C:\EmpPayRoll\EmpPay\src\services\/user.service.js:29:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:19:04.913Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:20:08.978Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:20:17.295Z"}
+error: 
+    status - 500 
+    message - TypeError: jwt.sing is not a function
+    at _callee2$ (C:\EmpPayRoll\EmpPay\src\services\/user.service.js:31:25)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:20:25.436Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:22:31.595Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:22:34.717Z"}
+error: 
+    status - 500 
+    message - TypeError: jwt.sing is not a function
+    at _callee2$ (C:\EmpPayRoll\EmpPay\src\services\/user.service.js:31:25)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:22:36.711Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:23:09.847Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:23:17.986Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:27:37.528Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:27:45.778Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:29:24.037Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:29:32.763Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T12:52:58.274Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T16:38:15.702Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:38:24.670Z"}
+info: Server started at http://localhost:5599/api/v1/ {"timestamp":"2022-01-10T16:47:43.993Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:47:52.424Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-10T16:55:50.661Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:55:58.907Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-10T18:25:19.765Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-01-10T18:25:19.785Z"}

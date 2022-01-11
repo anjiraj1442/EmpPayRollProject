@@ -1,0 +1,35 @@
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T04:04:34.137Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T04:04:42.683Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:08:15.699Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:08:24.237Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:10:34.343Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:10:47.078Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:11:10.019Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:11:21.788Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:11:26.959Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:11:35.086Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:12:04.167Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:12:12.253Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:12:22.633Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:12:30.519Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:19:44.371Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:19:52.864Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:20:53.975Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:21:02.821Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:21:11.295Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:21:21.476Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:21:36.432Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:21:44.434Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:23:19.727Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:23:28.341Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:23:39.442Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:23:47.494Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T05:25:30.245Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:25:38.684Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/register 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T05:30:53.686Z"}
