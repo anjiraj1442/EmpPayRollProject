@@ -166,3 +166,5 @@ info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:20:26 +0000] "GET /api/v1/emp/getempl
 
 info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:24:49 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 500 149 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:27:12 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 200 324 "-" "Thunder Client (https://www.thunderclient.io)"
+

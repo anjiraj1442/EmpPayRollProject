@@ -1222,3 +1222,5 @@ error:
    {"timestamp":"2022-01-11T16:24:49.412Z"}
 info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T16:26:29.646Z"}
 info: Connected to the database. {"timestamp":"2022-01-11T16:26:37.971Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T16:26:57.401Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T16:27:05.438Z"}
