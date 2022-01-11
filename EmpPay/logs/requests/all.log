@@ -698,3 +698,11 @@ info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:01:12 +0000] "GET /api/v1/emp/getempl
 
 info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:02:36 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:35:06 +0000] "PUT /api/v1/emp/updatedeatails HTTP/1.1" 200 345 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:35:32 +0000] "PUT /api/v1/emp/updatedeatails HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:35:39 +0000] "PUT /api/v1/emp/updatedeatails HTTP/1.1" 200 345 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:36:57 +0000] "PUT /api/v1/emp/updatedeatails HTTP/1.1" 200 345 "-" "Thunder Client (https://www.thunderclient.io)"
+
