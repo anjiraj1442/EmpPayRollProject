@@ -625,3 +625,115 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-01-11T09:09:06.526Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T09:10:38.769Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:35:06.043Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:32:17)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:39:46.851Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:267:15)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:14:42)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:42:25.953Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:267:15)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:14:42)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:45:31.983Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T10:57:53.263Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T10:58:11.444Z"}

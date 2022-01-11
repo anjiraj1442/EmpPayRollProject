@@ -832,3 +832,148 @@ error:
    {"timestamp":"2022-01-11T09:09:06.526Z"}
 info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T09:09:20.552Z"}
 info: Connected to the database. {"timestamp":"2022-01-11T09:09:28.910Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T09:10:28.983Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T09:10:37.708Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T09:10:38.769Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:35:06.043Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:36:33.209Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:36:41.935Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:39:43.078Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:32:17)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:39:46.851Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:39:52.100Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:40:11.503Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:40:25.192Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:40:33.314Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:42:16.328Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:42:25.640Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:267:15)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:14:42)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:42:25.953Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:43:52.697Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:44:01.076Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:44:18.869Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:44:29.378Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:44:34.482Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:44:42.611Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:44:59.291Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:45:19.590Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:45:28.041Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\EmpPayRoll\EmpPay\node_modules\express\lib\response.js:267:15)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:14:42)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T10:45:31.983Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:46:46.980Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:46:55.195Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:47:50.736Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:47:57.998Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:48:06.187Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:50:30.676Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:50:39.204Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:53:29.752Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:53:40.475Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:53:56.097Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:55:47.912Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T10:56:20.457Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:56:28.452Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T10:57:53.263Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T10:58:11.444Z"}

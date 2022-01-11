@@ -18,9 +18,14 @@ export const userAuth = async (req, res, next) => {
         message: 'Authorization token is required'
       };
       console.log("bearer" ,bearerToken);
-    // bearerToken = bearerToken.split(' ')[1];
-
-    const  { user }= jwt.verify(bearerToken, process.env.SECRETTOKEN, ((err, decoder) => {
+      
+     //bearerToken = bearerToken.split(' ')[1];
+      const token  =bearerToken.split('')
+     const tokenew= token[1]
+     
+     console.log("bearre token", bearerToken);
+     
+     await jwt.verify(bearerToken, process.env.SECRETTOKEN, ((err, decoder) => {
       if (err) {
         return res.status(HttpStatus.UNAUTHORIZED).send({ message: "UNATHORIZED" });
       } else {
@@ -29,10 +34,10 @@ export const userAuth = async (req, res, next) => {
         next();
       }
     }));
-    console.log(user,"auth")
+    
     // res.locals.user = user;
      //res.locals.token = bearerToken;
-    next();
+    
   } catch (error) {
     next(error);
   }
