@@ -168,3 +168,35 @@ info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:24:49 +0000] "GET /api/v1/emp/getempl
 
 info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:27:12 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 200 324 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:41:59 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:42:44 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:43:51 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:45:26 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:49:26 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:51:38 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:54:15 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:55:35 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:56:13 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:56:39 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:56:59 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:57:26 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:58:15 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:58:35 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:01:12 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 200 408 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:02:36 +0000] "DELETE /api/v1/emp/deleteemployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+

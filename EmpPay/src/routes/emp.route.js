@@ -6,4 +6,6 @@ const router = express.Router()
 //add new employee
 router.post('/addemployee', userAuth,  empController.addNewEmpC);
 router.get('/getemployee',userAuth, empController.getEmpDetaisC)
+router.delete('/deleteemployee',userAuth, empController.deleteEmpC)
+router.put('/updatedeatails',userAuth,empController.updatedetailsC)
 export default router;

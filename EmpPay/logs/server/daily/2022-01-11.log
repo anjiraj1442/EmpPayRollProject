@@ -667,3 +667,55 @@ info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T1
 info: Connected to the database. {"timestamp":"2022-01-11T16:26:37.971Z"}
 info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T16:26:57.401Z"}
 info: Connected to the database. {"timestamp":"2022-01-11T16:27:05.438Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:24:24.218Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:24:41.612Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:24:55.775Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:37:42.997Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:37:51.399Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:39:09.341Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:39:17.552Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:39:27.548Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:39:35.543Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:39:46.455Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:39:54.320Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:79:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/deleteemployee 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T17:41:59.349Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:42:32.925Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:42:41.184Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:79:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/deleteemployee 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T17:42:44.429Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:43:31.484Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:43:42.775Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:43:50.817Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:48:27.542Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:48:35.815Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T17:57:15.534Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:57:23.641Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T18:02:26.225Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:02:34.436Z"}
+info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T18:09:35.637Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:09:43.834Z"}
