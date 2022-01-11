@@ -195,3 +195,433 @@ error:
       method - GET 
       IP - ::ffff:127.0.0.1
      {"timestamp":"2022-01-11T05:30:53.686Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\EmpPayRoll\EmpPay\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {"date":"Tue Jan 11 2022 13:08:59 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1316341},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18374134,"external":26195118,"heapTotal":93446144,"heapUsed":54197768,"rss":124186624},"pid":17152,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\EmpPayRoll\\EmpPay\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)","timestamp":"2022-01-11T07:38:59.946Z","trace":[{"column":13,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\EmpPayRoll\\EmpPay\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\EmpPayRoll\EmpPay\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {"date":"Tue Jan 11 2022 13:09:22 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1316363},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18374134,"external":26195118,"heapTotal":93184000,"heapUsed":54381152,"rss":123584512},"pid":23504,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\EmpPayRoll\\EmpPay\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)","timestamp":"2022-01-11T07:39:22.273Z","trace":[{"column":13,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\EmpPayRoll\\EmpPay\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\EmpPayRoll\EmpPay\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {"date":"Tue Jan 11 2022 13:14:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1316644},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18374134,"external":26186926,"heapTotal":93446144,"heapUsed":54134824,"rss":123666432},"pid":40384,"uid":null,"version":"v16.13.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\EmpPayRoll\\EmpPay\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)","timestamp":"2022-01-11T07:44:02.539Z","trace":[{"column":13,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\EmpPayRoll\\EmpPay\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:45:18.348Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:46:52.356Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:48:18.586Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:50:20.454Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:16:27)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:51:46.058Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:23:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1317211},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18389756,"external":26213757,"heapTotal":93184000,"heapUsed":54104032,"rss":124313600},"pid":35940,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T07:53:29.793Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:23:46 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1317228},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18389756,"external":26213757,"heapTotal":92921856,"heapUsed":53991744,"rss":125595648},"pid":41644,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T07:53:46.513Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:24:43 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1317285},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18365180,"external":26213757,"heapTotal":93184000,"heapUsed":54986592,"rss":124870656},"pid":40064,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T07:54:43.796Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:25:37 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1317338},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18603975,"external":26213757,"heapTotal":92921856,"heapUsed":55344072,"rss":124485632},"pid":29368,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T07:55:37.394Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:25:52 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1317354},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18365180,"external":26205565,"heapTotal":93708288,"heapUsed":55395808,"rss":124956672},"pid":17908,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T07:55:52.927Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:26:24 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1317386},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18751838,"external":20951985,"heapTotal":91611136,"heapUsed":52650752,"rss":125489152},"pid":932,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T07:56:24.687Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:27:00 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1317421},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18736685,"external":20951985,"heapTotal":93184000,"heapUsed":56669600,"rss":125095936},"pid":20456,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T07:57:00.240Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:57:55.410Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:03:14.365Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:04:42.256Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:10:35.146Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5566
+Error: listen EADDRINUSE: address already in use :::5566
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\EmpPayRoll\EmpPay\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\EmpPayRoll\EmpPay\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jan 11 2022 13:43:50 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5566,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1318431},"process":{"argv":["node","C:\\EmpPayRoll\\EmpPay\\src\\index.js"],"cwd":"C:\\EmpPayRoll\\EmpPay","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18706672,"external":26213757,"heapTotal":93708288,"heapUsed":56475784,"rss":124444672},"pid":30256,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::5566\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-01-11T08:13:50.364Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\EmpPayRoll\\EmpPay\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\EmpPayRoll\\EmpPay\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:16:35.945Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:44:48.079Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:50:22.334Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T09:07:09.831Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T09:09:06.526Z"}

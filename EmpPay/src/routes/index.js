@@ -1,5 +1,6 @@
 import express from 'express';
 const router = express.Router();
+import empRoute from './emp.route';
 
 import userRoute from './user.route';
 /**
@@ -12,6 +13,8 @@ const routes = () => {
     res.json('Welcome to emppayroll');
   });
   router.use('/users', userRoute);
+  router.use('/emp', empRoute);
+
 
   return router;
 };

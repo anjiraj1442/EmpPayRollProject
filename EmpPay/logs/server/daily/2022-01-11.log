@@ -33,3 +33,281 @@ error:
       method - GET 
       IP - ::ffff:127.0.0.1
      {"timestamp":"2022-01-11T05:30:53.686Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:21:37.574Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:21:46.171Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:24:59.788Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:25:08.184Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:34:56.827Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:35:05.059Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:38:38.657Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:44:54.380Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:45:02.724Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:45:18.348Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:46:52.356Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:47:39.501Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:48:07.125Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:48:15.399Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:48:18.586Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:50:09.141Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:50:17.958Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\EmpPayRoll\EmpPay\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\layer.js:95:5)
+    at C:\EmpPayRoll\EmpPay\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:50:20.454Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:51:24.930Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:51:33.408Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:16:27)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:51:46.058Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:53:21.552Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:53:29.966Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T07:57:41.896Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:57:50.201Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:57:55.410Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:02:53.103Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:03:02.763Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:03:14.365Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:04:42.256Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:10:35.146Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:12:51.445Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:13:00.039Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:13:46.555Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:13:54.375Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:16:25.505Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:16:33.740Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:13)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:16:35.945Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:19:58.931Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:20:07.447Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:44:29.125Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:44:37.479Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:44:48.079Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:50:12.333Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:50:20.678Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T08:50:22.334Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T08:50:52.241Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:51:00.362Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T09:06:21.093Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T09:06:29.786Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T09:06:58.598Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T09:07:06.937Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T09:07:09.831Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T09:07:52.807Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T09:08:01.230Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T09:08:49.273Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T09:08:57.559Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'user')
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\middlewares\/auth.middleware.js:23:14)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T09:09:06.526Z"}
+info: Server started at http://localhost:5566/api/v1/ {"timestamp":"2022-01-11T09:09:20.552Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T09:09:28.910Z"}

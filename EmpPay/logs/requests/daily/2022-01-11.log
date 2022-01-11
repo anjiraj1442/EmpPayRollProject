@@ -20,3 +20,45 @@ info: ::ffff:127.0.0.1 - - [11/Jan/2022:05:31:12 +0000] "POST /api/v1/users/regi
 
 info: ::ffff:127.0.0.1 - - [11/Jan/2022:05:31:31 +0000] "GET /api/v1/users/login HTTP/1.1" 200 487 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:21:47 +0000] "POST /api/v1/users/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:25:19 +0000] "POST /api/v1/users/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:28:37 +0000] "POST /api/v1/users/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:35:02 +0000] "POST /api/v1/users/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:35:25 +0000] "POST /api/v1/users/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:36:27 +0000] "POST /api/v1/users/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:45:18 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:46:52 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:48:18 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:50:20 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:51:46 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:57:55 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:08:03:14 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:08:04:42 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:08:10:35 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:08:13:21 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:08:16:35 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:08:44:48 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:08:50:22 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:09:07:09 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:09:09:06 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 87 "-" "Thunder Client (https://www.thunderclient.io)"
+
