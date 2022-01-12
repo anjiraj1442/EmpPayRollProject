@@ -2,3 +2,36 @@ info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T1
 info: Connected to the database. {"timestamp":"2022-01-11T18:34:29.270Z"}
 info: Server started at http://localhost:5544/api/v1/ {"timestamp":"2022-01-11T18:34:48.642Z"}
 info: Connected to the database. {"timestamp":"2022-01-11T18:34:56.564Z"}
+info: Server started at http://localhost:5511/api/v1/ {"timestamp":"2022-01-12T17:16:44.616Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T17:16:53.177Z"}
+info: Server started at http://localhost:5511/api/v1/ {"timestamp":"2022-01-12T17:19:46.602Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T17:19:54.793Z"}
+info: Server started at http://localhost:5511/api/v1/ {"timestamp":"2022-01-12T17:21:33.029Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T17:21:41.284Z"}
+info: Server started at http://localhost:5511/api/v1/ {"timestamp":"2022-01-12T17:34:15.341Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T17:34:23.511Z"}
+error: 
+    status - 500 
+    message - ReferenceError: EmpModel is not defined
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\services\/emp.service.js:6:10)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNewEmpS (C:\EmpPayRoll\EmpPay\src\services\/emp.service.js:5:24)
+    at _callee$ (C:\EmpPayRoll\EmpPay\src\controllers\/emp.controller.js:12:51)
+    at tryCatch (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\EmpPayRoll\EmpPay\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\EmpPayRoll\EmpPay\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T17:34:32.926Z"}
+info: Server started at http://localhost:5511/api/v1/ {"timestamp":"2022-01-12T17:35:35.915Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T17:35:44.243Z"}

@@ -63,6 +63,39 @@ import * as EmpService from '../services/emp.service'
 
      }
 
+     
+ /**
+ * Controller to get  all Employees
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+ export const getAllEmpDetaisC = async (req,res,next)=>{
+     try{
+          const getempdata = await EmpService.getAllempdataS(req.body,res)
+          if(getempdata){
+              res.status(HttpStatus.OK).json({
+                   code: HttpStatus.OK,
+                   data: getempdata,
+                   message: 'employee records found'
+              })  
+         }
+         else {
+              res.status(HttpStatus.NOT_FOUND).json({
+                code: HttpStatus.NOT_FOUND,
+                data: "",
+                message: ' Employee details not found '
+              });
+            }
+          } catch (error) {
+            next(error);
+          }
+          
+
+    }
+
+
      /**
  * Controller to delete Employees
  * @param  {object} req - request object

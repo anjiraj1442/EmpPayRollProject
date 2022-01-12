@@ -1,9 +1,9 @@
 import empModel from '../models/emp.model';
-import EmpModel from '../models/emp.model'
+
 
 
 export const addNewEmpS = async (req,res)=>{
-     var newEmployee = new EmpModel({
+     var newEmployee = new empModel({
           firstName:req.firstName,
           lastName:req.lastName,
           gender:req.gender,
@@ -18,6 +18,10 @@ export const addNewEmpS = async (req,res)=>{
 }
 export const getempdataS = async (req, res) => {
      let employeeData = await empModel.findById({ _id: req._id});
+     return employeeData;
+ };
+ export const getAllempdataS = async (req, res) => {
+     let employeeData = await empModel.find();
      return employeeData;
  };
  export const deleteEmpS = async (req, res) => {
@@ -38,7 +42,7 @@ export const getempdataS = async (req, res) => {
                startdate: req.startdate ? req.startdate : employeeData.startdate,
                notes: req.notes ? req.notes : employeeData.notes,
           }
-          return EmpModel.updateOne({_id: req._id},model)
+          return empModel.updateOne({_id: req._id},model)
       }
       else{
            return employeeData
